@@ -1,4 +1,4 @@
-console.log('Client side JavScript loaded')
+//console.log('Client side JavScript loaded')
 
 //Fetch is a client(browser) based API and not a node feature.
 
