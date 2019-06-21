@@ -13,6 +13,7 @@ const forecast = (latitude,longitude,callback)=>{
             callback(undefined,{
                 summary:body.currently.summary,
                 temparature: body.currently.temperature,
+                forecast: body.daily.summary
             })
         }
 

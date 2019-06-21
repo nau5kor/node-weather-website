@@ -82,7 +82,8 @@ app.get('/weather',(req,res)=>{
                     res.send({
                         summary:fres.summary,
                         temparature:fres.temparature,
-                        location:req.query.address
+                        location:req.query.address,
+                        forecast: fres.forecast
                     })
                 }else{
                     res.send(ferror)
